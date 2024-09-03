@@ -1,0 +1,38 @@
+.example-tree-table {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.mat-mdc-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.mat-mdc-header-cell, .mat-mdc-cell {
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  padding: 8px;
+}
+
+.example-tree-invisible {
+  display: none;
+}
+
+.mat-mdc-tree-node {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.mat-tree-node {
+  min-height: 48px;
+}
+
+.mat-mdc-nested-tree-node {
+  padding-left: 40px;
+}
+
+button[mat-icon-button] {
+  margin-right: 8px;
+}
