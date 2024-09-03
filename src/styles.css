@@ -1,0 +1,24 @@
+/* Define your primary and accent colors */
+:root {
+  --primary-color: #3f51b5; /* Replace with your desired primary color */
+  --primary-contrast: #ffffff; /* Replace with appropriate contrast color */
+
+  --accent-color: #e91e63; /* Replace with your desired accent color */
+  --accent-contrast: #ffffff; /* Replace with appropriate contrast color */
+}
+
+/* Default (light) theme styles */
+.mat-tab-group .mat-tab-label {
+  background-color: var(--primary-color);
+  color: var(--primary-contrast);
+}
+
+.mat-tab-group .mat-tab-label.mat-tab-label-active {
+  background-color: var(--accent-color);
+  color: var(--accent-contrast);
+  border-bottom: none; /* Remove the underline */
+}
+
+.mat-tab-group .mat-ink-bar {
+  display: none; /* Hide the ink bar */
+}
